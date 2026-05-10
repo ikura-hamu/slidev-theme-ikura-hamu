@@ -1,3 +1,7 @@
+:root {
+  --slidev-theme-primary: #0f71f2;
+}
+
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
@@ -38,4 +42,12 @@
 
 .slidev-layout:not(.cover) {
   padding-bottom: 5rem;
+}
+
+.slidev-layout strong {
+  @apply text-slide-primary;
+}
+
+.slidev-layout a {
+  @apply border-slide-primary;
 }
