@@ -9,20 +9,17 @@ theme: ./
 
 ---
 
-# What is Slidev?
+# Slidev って何？
 
-Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
+Slidev は開発者のために設計された、スライド制作・プレゼンテーションツールです。以下の機能を持っています。
 
-- 📝 **Text-based** - focus on your content with Markdown, then style it later
-- 🎨 **Themable** - themes can be shared and reused as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-
-<br>
-<br>
+- 📝 **テキストベース** - Markdown で内容に集中し、スタイルを後から付ける
+- 🎨 **テーマによるカスタム** - テーマは npm パッケージとして共有し再利用
+- 🧑‍💻 **開発者フレンドリー** - コードハイライト、ライブコーディング、自動補完
+- 🤹 **インタラクティブ** - Vue コンポーネントを埋め込んで表現を拡張
+- 🎥 **レコーディング** - ビルトインのレコーディングとカメラ
+- 📤 **ポータブル** - PDF、PPTX、PNG、ホストできる SPA にエクスポート
+- 🛠 **ハックできる** - Web ページでできることは Slidev でもなんでもできる
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 

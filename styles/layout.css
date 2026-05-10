@@ -7,12 +7,24 @@
   }
 
   h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
+    @apply -mt-2 mb-4;
   }
 
   p + h2,
   ul + h2,
   table + h2 {
     @apply mt-10;
+  }
+}
+
+.slidev-layout {
+  @apply bg-slide-background text-slide-text text-md;
+
+  h1 {
+    @apply text-slide-primary text-5xl;
+  }
+
+  :is(p, li, blockquote, th, td, h1, h2, h3, h4, h5, h6) {
+    line-height: inherit;
   }
 }

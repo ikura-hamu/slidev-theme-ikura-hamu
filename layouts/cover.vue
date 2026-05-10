@@ -10,9 +10,10 @@
 
 <style lang="css" scoped>
 .cover {
+  @apply text-slide-inverse;
   :deep(h1) {
     border-bottom: 8px solid;
-    @apply border-slide-accent;
+    @apply border-slide-accent text-slide-inverse;
   }
 }
 </style>

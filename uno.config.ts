@@ -20,6 +20,11 @@ export default defineConfig({
         inverse: "#ffffff", // 青・黒背景上の文字
       },
     },
+    fontSize: {
+      sm: ["20px", "1.5"],
+      md: ["24px", "1.5"],
+      lg: ["28px", "1.5"],
+    },
     boxShadow: {
       slide: "0 18px 45px rgba(13, 13, 13, 0.12)",
       card: "0 8px 24px rgba(13, 13, 13, 0.08)",
