@@ -8,6 +8,17 @@ theme: ./
 ## ikura-hamu / aaa
 
 ---
+layout: intro
+---
+
+# intro
+
+いんとろ
+
+- イントロ
+- intro
+
+---
 
 # Slidev って何？
 
