@@ -1,21 +1,18 @@
-<script setup lang="ts">
-import { handleBackground } from "@slidev/client";
-import { computed } from "vue";
-
-const props = defineProps({
-  background: {
-    type: String,
-    default: undefined,
-  },
-});
-
-const style = computed(() => handleBackground(props.background));
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="slidev-layout cover" :style="style">
+  <div class="slidev-layout cover bg-slide-primary">
     <div class="my-auto w-full text-center">
       <slot />
     </div>
   </div>
 </template>
+
+<style lang="css" scoped>
+.cover {
+  :deep(h1) {
+    border-bottom: 8px solid;
+    @apply border-slide-accent;
+  }
+}
+</style>

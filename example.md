@@ -1,11 +1,11 @@
 ---
 theme: ./
-background: https://cover.sli.dev
+# background: https://cover.sli.dev
 ---
 
-# Slidev Theme Starter
+# スライドテーマスライドテーマスライドテーマ
 
-Presentation slides for developers
+## ikura-hamu / aaa
 
 ---
 

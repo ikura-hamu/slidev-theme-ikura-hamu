@@ -29,7 +29,7 @@
     "colorSchema": "both",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
+        "sans": "Noto Sans JP",
         "mono": "Fira Code"
       }
     }
