@@ -40,10 +40,6 @@
   padding-top: 24px;
 }
 
-.slidev-layout:not(.cover) {
-  padding-bottom: 5rem;
-}
-
 .slidev-layout strong {
   @apply text-slide-primary;
 }

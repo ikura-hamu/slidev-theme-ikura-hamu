@@ -11,9 +11,13 @@ theme: ./
 layout: intro
 ---
 
-# intro
+::icon::
 
-いんとろ
+<MyIcon />
+
+::content::
+
+# ikura-hamu / いくら・はむ
 
 - イントロ
 - intro
