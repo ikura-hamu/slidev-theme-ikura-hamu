@@ -1,8 +1,8 @@
-# slidev-theme-ikura-hamu
+# @ikura-hamu/slidev-theme-ikura-hamu
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-ikura-hamu?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-ikura-hamu)
+![NPM Version](https://img.shields.io/npm/v/%40ikura-hamu%2Fslidev-theme-ikura-hamu)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A theme for [Slidev](https://github.com/slidevjs/slidev).
 
 <!--
   Learn more about how to write a theme:
@@ -24,8 +24,14 @@ A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>ikura-hamu</b>
+theme: <b>@ikura-hamu/slidev-theme-ikura-hamu</b>
 ---</code></pre>
+
+or
+
+```sh
+npm install @ikura-hamu/slidev-theme-ikura-hamu
+```
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
 
@@ -43,8 +49,8 @@ This theme provides the following components:
 
 ## Contributing
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
+- `pnpm install`
+- `pnpm run dev` to start theme preview of `example.md`
 - Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+- `pnpm run export` to generate the preview PDF
+- `pnpm run screenshot` to generate the preview PNG
