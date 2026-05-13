@@ -17,7 +17,8 @@
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "screenshot": "slidev export example.md --format png",
+    "export-md": "slidev export example.md --format md --output examples/light/README.md && slidev export example.md --format md --dark --output examples/dark/README.md"
   },
   "dependencies": {
     "@slidev/types": "^52.15.2"
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@slidev/cli": "^52.15.2",
     "@slidev/client": "^52.15.2",
+    "playwright-chromium": "^1.60.0",
     "prettier": "^3.8.3",
     "prettier-plugin-slidev": "^1.0.5",
     "unocss": "^66.6.8",

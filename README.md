@@ -23,9 +23,11 @@ A theme for [Slidev](https://github.com/slidevjs/slidev).
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>@ikura-hamu/slidev-theme-ikura-hamu</b>
----</code></pre>
+```yaml
+---
+theme: @ikura-hamu/slidev-theme-ikura-hamu
+---
+```
 
 or
 
@@ -34,6 +36,11 @@ npm install @ikura-hamu/slidev-theme-ikura-hamu
 ```
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
+
+## Examples
+
+- [Light Theme](./examples/light/README.md)
+- [Dark Theme](./examples/dark/README.md)
 
 ## Layouts
 

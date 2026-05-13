@@ -1,6 +1,5 @@
 ---
 theme: ./
-# background: https://cover.sli.dev
 ---
 
 # スライドテーマスライドテーマスライドテーマ
@@ -40,22 +39,12 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
 
-# Navigation
+# Components
 
-Hover on the bottom-left corner to see the navigation's controls panel
+## `<MyIcon />`
 
-## Keyboard Shortcuts
+<MyIcon />
 
-|                                                      |                             |
-| ---------------------------------------------------- | --------------------------- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd>  | previous animation or slide |
-| <kbd>up</kbd>                                        | previous slide              |
-| <kbd>down</kbd>                                      | next slide                  |
-
----
-layout: image-right
-image: https://cover.sli.dev
 ---
 
 # Code
@@ -76,12 +65,3 @@ function updateUser(id: number, update: Partial<User>) {
   saveUser(id, newUser)
 }
 ```
-
----
-layout: center
-class: "text-center"
----
-
-# Learn More
-
-[Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
