@@ -22,7 +22,7 @@ jobs:
           registry-url: "https://registry.npmjs.org/"
 
       - name: Set version
-        run: pnpm version ${{ github.ref_name }}
+        run: pnpm version ${{ github.ref_name }} --no-git-tag-version
 
       - name: Publish
         run: pnpm publish --access public
