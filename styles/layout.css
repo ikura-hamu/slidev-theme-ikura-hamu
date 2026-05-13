@@ -1,5 +1,22 @@
 :root {
-  --slidev-theme-primary: #0f71f2;
+  --slidev-theme-primary: var(--ikura-slide-primary);
+  --ikura-slide-primary: #0f71f2;
+  --ikura-slide-secondary: #a0a8df;
+  --ikura-slide-background: #e6f4f1;
+  --ikura-slide-accent: #eee8a9;
+  --ikura-slide-text: #0d0d0d;
+  --ikura-slide-inverse: #ffffff;
+}
+
+html.dark,
+.dark {
+  --slidev-theme-primary: var(--ikura-slide-primary);
+  --ikura-slide-primary: #0f71f2;
+  --ikura-slide-secondary: #c7d2fe;
+  --ikura-slide-background: #071018;
+  --ikura-slide-accent: #eee8a9;
+  --ikura-slide-text: #f4f7fb;
+  --ikura-slide-inverse: #ffffff;
 }
 
 .slidev-layout.cover,
