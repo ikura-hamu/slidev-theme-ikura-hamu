@@ -6,6 +6,9 @@
     "slidev-theme",
     "slidev"
   ],
+  "repository": {
+    "url": "https://github.com/ikura-hamu/slidev-theme-ikura-hamu"
+  },
   "engines": {
     "node": ">=20.12.0"
   },
