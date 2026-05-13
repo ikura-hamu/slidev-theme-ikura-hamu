@@ -1,5 +1,5 @@
 {
-  "name": "slidev-theme-ikura-hamu",
+  "name": "@ikura-hamu/slidev-theme-ikura-hamu",
   "version": "0.0.0",
   "type": "module",
   "keywords": [
@@ -17,11 +17,11 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^52.15.1"
+    "@slidev/types": "^52.15.2"
   },
   "devDependencies": {
-    "@slidev/cli": "^52.15.1",
-    "@slidev/client": "^52.15.1",
+    "@slidev/cli": "^52.15.2",
+    "@slidev/client": "^52.15.2",
     "prettier": "^3.8.3",
     "prettier-plugin-slidev": "^1.0.5",
     "unocss": "^66.6.8",
