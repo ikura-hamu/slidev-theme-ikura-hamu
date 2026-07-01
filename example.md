@@ -47,6 +47,14 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
 
+# Components
+
+## `<MyCustomIcon text="My Custom Icon" />`
+
+<MyCustomIcon text="My Custom Icon" />
+
+---
+
 # Code
 
 Use code snippets and get the highlighting directly!

@@ -1,3 +1,25 @@
+<!--
+  Usage:
+
+```md
+---
+layout: intro
+---
+
+::icon::
+
+アイコンとか
+
+::content::
+
+# 名前
+
+- 詳細
+- 自己紹介
+```
+
+-->
+
 <template>
   <div class="slidev-layout intro">
     <div class="my-auto w-full flex gap-16">
