@@ -14,5 +14,9 @@
 
 ---
 
-![Code](./5.png)
+![Components](./5.png)
+
+---
+
+![Code](./6.png)
 
