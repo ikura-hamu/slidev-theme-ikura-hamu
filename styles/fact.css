@@ -1,0 +1,60 @@
+.slidev-layout.fact {
+  display: grid;
+  place-items: center;
+  padding: 4rem 1rem;
+}
+
+.slidev-layout.fact > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 85%;
+}
+
+.slidev-layout.fact > div:has(.footnotes) {
+  justify-content: flex-start;
+}
+
+.slidev-layout.fact
+  > div:has(.footnotes)
+  > :first-child:not(.footnotes, .footnotes-sep) {
+  margin-top: auto;
+}
+
+.slidev-layout.fact > div > h1:not(.footnotes, .footnotes-sep) {
+  text-align: center;
+}
+
+.slidev-layout.fact > div > :is(h2, p):not(.footnotes, .footnotes-sep) {
+  margin: 0;
+  color: var(--ikura-slide-primary);
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.slidev-layout.fact
+  > div
+  > :is(h2, p):not(.footnotes, .footnotes-sep)
+  + p:not(.footnotes, .footnotes-sep) {
+  margin-top: 1.25rem;
+  color: var(--ikura-slide-text);
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.slidev-layout.fact > div > :not(.footnotes, .footnotes-sep) strong {
+  color: var(--ikura-slide-accent);
+}
+
+.slidev-layout.fact > div > p:not(.footnotes, .footnotes-sep) sup {
+  font-size: 1.25rem;
+}
+
+.slidev-layout.fact .footnotes-sep {
+  margin: auto 0 0.75rem;
+}

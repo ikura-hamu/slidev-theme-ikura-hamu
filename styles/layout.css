@@ -46,6 +46,8 @@ html.dark,
 
   h1 {
     @apply text-slide-primary text-5xl;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
   }
 
   :is(p, li, blockquote, th, td, h1, h2, h3, h4, h5, h6) {
@@ -63,4 +65,8 @@ html.dark,
 
 .slidev-layout a {
   @apply border-slide-primary;
+}
+
+.slidev-layout .footnotes {
+  font-size: 1rem;
 }
