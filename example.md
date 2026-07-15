@@ -38,6 +38,26 @@ Slidev は開発者のために設計された、スライド制作・プレゼ�
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
+layout: section
+---
+
+# section
+
+`layout: section`
+
+---
+layout: fact
+---
+
+# fact
+
+重要な情報
+
+重要でした～
+
+`layout: fact`
+
+---
 
 # Components
 
