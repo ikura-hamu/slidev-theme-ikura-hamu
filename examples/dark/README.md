@@ -10,13 +10,21 @@
 
 ---
 
-![Components](./4.png)
+![section](./4.png)
 
 ---
 
-![Components](./5.png)
+![fact](./5.png)
 
 ---
 
-![Code](./6.png)
+![Components](./6.png)
+
+---
+
+![Components](./7.png)
+
+---
+
+![Code](./8.png)
 
