@@ -18,7 +18,8 @@
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
-    "export-md": "slidev export example.md --format md --output examples/light/README.md && slidev export example.md --format md --dark --output examples/dark/README.md"
+    "export-md": "slidev export example.md --format md --output examples/light/README.md && slidev export example.md --format md --dark --output examples/dark/README.md",
+    "test:creator": "pnpm --filter @ikura-hamu/create-slidev-theme-ikura-hamu test"
   },
   "dependencies": {
     "@ikura-hamu/icon-generator": "^0.2.0",

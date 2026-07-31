@@ -37,6 +37,16 @@ npm install @ikura-hamu/slidev-theme-ikura-hamu
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
 
+## Create a new presentation
+
+To create a Slidev project with this theme, use the companion creator package:
+
+```sh
+pnpm create @ikura-hamu/slidev-theme-ikura-hamu my-slides
+```
+
+See [`@ikura-hamu/create-slidev-theme-ikura-hamu`](./packages/create-slidev-theme-ikura-hamu/README.md) for npm, Yarn, and Bun usage.
+
 ## Examples
 
 - [Light Theme](./examples/light/README.md)
